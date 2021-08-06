@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
@@ -18,7 +18,7 @@
 	<script src="./js/jquery.touchSwipe.min.js" defer></script>
 	<script src="./js/gmaps.min.js" defer></script>
 
-    <title>Bienvenue dans notre entreprise de web desing à Lyon! La Chouette agence</title>
+    <title>La Chouette agence Bienvenue dans notre entreprise de web desing à Lyon!</title>
 
 <!-- Analytics -->
  
@@ -35,7 +35,7 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="logo La chouette agence" width="220" height="50"/></a>
+				<img src="img/la-chouette-agence.webp" alt="logo La chouette agence" width="250" height="50"/></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -46,9 +46,13 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
+						<a href="#expertise">Notre expertise</a>
 					</li>
 					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="#realisation">Nos réalisations</a>
+					</li>
+					<li>
+						<a href="page2.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -59,16 +63,13 @@
 
 <!-- bloc-1-presentation -->
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
-	<div class="container bloc-lg">
+	<div class="container bloc-lg ">
 		<div class="row tight-width-whitespace">
-			<div class="col-sm-12">
+			<div class="col-sm-12 h1__container">
 				<img src="img/logo.webp" class="center-block image-resize-mode" alt="La chouette agence logo"width="100" height="100"/>
 				<h1 class="text-center hero-bloc-text tc-white ">
-					La chouette agence.
+					La Chouette agence<br> Bienvenue dans notre entreprise de web desing à Lyon!
 				</h1>
-				<div class="text-center">
-					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -83,7 +84,7 @@
 				<h2>La chouette agence est une agence de web design<br> qui aide les entreprises à devenir attractives et visibles sur Internet.</h2> 
 			</div>
 		</div>
-		<div class="row voffset-lg med-width-whitespace">
+		<div id="expertise" class="row voffset-lg med-width-whitespace">
 			<div class="col-sm-4">
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
@@ -141,7 +142,7 @@
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br>
 				</p>
 			</div>
 		</div>
@@ -158,7 +159,7 @@
 				voici nos réalisations.</h2>
 			</div>
 		</div>
-		<div class="row tight-width-whitespace portfolio-row">
+		<div id="realisation" class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" alt="pile de livres ouverts" class="img-responsive portfolio-thumb" width="270" height="270"/></a>
 				<h3 class="mg-md text-center">
@@ -205,17 +206,20 @@
 <!-- bloc-5-cta -->
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row projet">
 			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contactez nous!</a>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-5-cta END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
 
 <!-- Footer - bloc-8 -->
 <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -252,11 +256,6 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-8 END -->
-
 </div>
-<!-- Principal conteneur END -->
-    
-
 </body>
 </html>
