@@ -11,11 +11,10 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
-    text-decoration: none;
     cursor: pointer;
 }
 
@@ -67,14 +66,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
-}
-
-.bg-repeat {
-    background: repeat;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-t-edge {
@@ -89,11 +84,6 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -257,7 +247,6 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -305,7 +294,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -366,7 +355,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    background: none;
     display: block;
     padding: 14px 15px;
 }
@@ -393,7 +382,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0;
     float: right;
 }
 
@@ -423,7 +412,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -438,11 +427,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -650,12 +639,11 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    
 }
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -676,7 +664,7 @@ h3 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -695,7 +683,7 @@ h3 {
     border-radius: 20px;
 }
 .projet h2{
-    color: #f5ac8a!important;
+    color: #f5ac8a;
 }
 .adresse {
     padding: 20px;
@@ -726,7 +714,7 @@ h3 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -743,33 +731,33 @@ h3 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #1A1F37;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    border-style: dashed;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -785,7 +773,7 @@ h3 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -811,13 +799,13 @@ h3 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -835,10 +823,6 @@ h3 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -847,8 +831,6 @@ h3 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -865,8 +847,8 @@ h3 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -874,7 +856,7 @@ h3 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        float: none;
     }
     .navbar.row {
         margin-left: 0;
@@ -899,7 +881,7 @@ h3 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
