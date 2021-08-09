@@ -8,19 +8,16 @@
 	à devenir attractives et visibles sur le Net pour connaître le succès. 
 	Nous aidons les entreprises locales à attirer de nouveaux clients">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"> 
+
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
-	<script src="./js/jquery-2.1.0.min.js" defer></script>
-	<script src="./js/bootstrap.min.js" defer></script>
-	<script src="./js/blocs.min.js" defer></script>
-	<script src="./js/jquery.touchSwipe.min.js" defer></script>
-	<script src="./js/gmaps.min.js" defer></script>
-
     <title>Contact - Entreprise de web desing à Lyon</title>
 
     
@@ -55,7 +52,7 @@
 						<a href="#realisation">Nos réalisations</a>
 					</li>
 					<li>
-						<a href="page2.html">Contact</a>
+						<a href="page2.html" aria-current="page">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -89,27 +86,27 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" autocomplete="name" aria-invalid="false" aria-required="true" class="form-control"/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email adress">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" autocomplete="email" aria-invalid="false" aria-required="true" class="form-control" type="email"/>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+							<input class="form-control" type="text"/>
+						</label>		
 					</div>
 					<div class="form-group">
 						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							Votre message
+						</label><textarea id="message" class="form-control" rows="4" cols="50"></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -118,8 +115,9 @@
 			</div>
 			<div class="col-sm-6 adresse">
 				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					La chouette agence - webdesing<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
+				<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
 			</div>
 		</div>
 	</div>
@@ -132,39 +130,45 @@
 <!-- ScrollToTop Button END-->
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
+					La chouette agence - Agence web design basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/" target="blank">twitter<span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/" target="blank" aria-label="Contactez-nous sur twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://fr-fr.facebook.com/" target="blank">facebook<span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://fr-fr.facebook.com/" target="blank" aria-label="Contactez-nous sur facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://dribbble.com/" target="blank">dribble<span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com/" target="blank" aria-label="Contactez-nous sur dribble"><span aria-hidden="true" class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.instagram.com/" target="blank">instagram<span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com/" target="blank"aria-label="Contactez-nous sur instagram"><span aria-hidden="true" class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</footer>
 </div>
-</div>
+	<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script src="./js/gmaps.min.js" defer></script>	
+	<noscript>Votre navigateur ne supporte pas JavaScript!</noscript>
 </body>
 </html>
