@@ -3,16 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
-    <meta name="description" 
-	content="La Chouette agence est une entreprise de webdesign à Lyon qui aide les entreprises 
+    <meta name="description" content="La Chouette agence est une entreprise de webdesign à Lyon qui aide les entreprises 
 	à devenir attractives et visibles sur le Net pour connaître le succès. 
 	Nous aidons les entreprises locales à attirer de nouveaux clients">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="./favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+	<!-- favicon compressed // type format fixed -->
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+    
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"> 
 
+	<!-- minified all ressources -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
@@ -22,15 +25,14 @@
 
     
 <!-- Analytics -->
- 
 <!-- Analytics END -->
     
 </head>
 <body>
-<!-- Principal conteneur -->
+
 <div class="page-container">
     
-<!-- bloc-0 -->
+<!-- add header element -->
 <header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
@@ -46,10 +48,10 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-						<a href="#expertise">Notre expertise</a>
+						<a href="index.html">Notre expertise</a>
 					</li>
 					<li>
-						<a href="#realisation">Nos réalisations</a>
+						<a href="index.html">Nos réalisations</a>
 					</li>
 					<li>
 						<a href="page2.html" aria-current="page">Contact</a>
@@ -59,9 +61,8 @@
 		</nav>
 	</div>
 </header>
-<!-- bloc-0 END -->
 
-<!-- bloc-6 -->
+<!-- section -->
 <section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -77,10 +78,9 @@
 		</div>
 	</div>
 </section>
-<!-- bloc-6 END -->
 
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
+<!-- add main element -->
+<main class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
@@ -88,27 +88,33 @@
 					<div class="form-group">
 						<label for="name">
 							Nom
+							<input id="name" autocomplete="name" aria-invalid="false" aria-required="true" class="form-control"/>
 						</label>
-						<input id="name" autocomplete="name" aria-invalid="false" aria-required="true" class="form-control"/>
 					</div>
+					
 					<div class="form-group">
 						<label for="email adress">
 							Adresse email
+							<input id="email" autocomplete="email" aria-invalid="false" aria-required="true" class="form-control" type="email"/>
 						</label>
-						<input id="email" autocomplete="email" aria-invalid="false" aria-required="true" class="form-control" type="email"/>
 					</div>
+					
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 							<input class="form-control" type="text"/>
 						</label>		
 					</div>
+					
+					
 					<div class="form-group">
 						<label>
 							Votre message
-						</label><textarea id="message" class="form-control" rows="4" cols="50"></textarea>
+							<textarea id="message" class="form-control" rows="4" cols="50"></textarea>
+						</label>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<!-- ScrollToTop Button -->
+					<button  class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
 				</form>
@@ -121,15 +127,13 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-7 END -->
-
+</main>
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a title="haut de la page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
-<!-- Footer - bloc-8 -->
+<!--add Footer element --->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
@@ -163,12 +167,12 @@
 		</div>
 	</div>
 </footer>
-</div>
+<!--- add defer to all javascript files----->
 	<script src="./js/jquery-2.1.0.min.js" defer></script>
 	<script src="./js/bootstrap.min.js" defer></script>
 	<script src="./js/blocs.min.js" defer></script>
 	<script src="./js/jquery.touchSwipe.min.js" defer></script>
 	<script src="./js/gmaps.min.js" defer></script>	
-	<noscript>Votre navigateur ne supporte pas JavaScript!</noscript>
+	
 </body>
 </html>

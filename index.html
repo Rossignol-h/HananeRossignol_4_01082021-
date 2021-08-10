@@ -21,41 +21,39 @@
 	<meta name="twitter:title" content="La Chouette Agence - Meilleure agence de webdesign à Lyon"/>
 	<meta name="twitter:description" content="Nous souhaitons aider les entreprises de la région Lyonnaise à se développer leur site web et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients"/>
 
-
+	<!-- favicon compressed // type format fixed -->
 	<link rel="shortcut icon" type="image/png" href="favicon.png">
     
+	<!-- minified all ressources -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
+	<!-- add the right font for accessibility -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"> 	
-
+	
+	<!-- add canonical url -->
 	<link rel="canonical" href="https://rossignol-h.github.io/HananeRossignol_4_01082021-/index.html">
 	
+	<!-- add title optimized for SEO -->
     <title>La Chouette agence Bienvenue dans notre entreprise de web desing à Lyon!</title>
 
 <!-- Analytics -->
- 
 <!-- Analytics END -->
     
 </head>
 <body>
-<!-- Principal conteneur -->
-<div class="page-container">
+	<div class="page-container">
     
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-
+<!-- header -->
+	<header class="bloc bgc-white l-bloc " id="bloc-0">
+		<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<img src="img/la-chouette-agence.webp" alt="logo La chouette agence" width="250" height="50"/>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
+				<img src="img/la-chouette-agence.webp" alt="logo La chouette agence" height="72"/>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
@@ -75,15 +73,14 @@
 			</div>
 		</nav>
 	</div>
-</div>
-<!-- bloc-0 END -->
+</header>
 
 <!-- bloc-1-presentation -->
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg ">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12 h1__container">
-				<img src="img/logo.webp" class="center-block image-resize-mode" alt="La chouette agence logo"width="100" height="100"/>
+				<img src="img/logo.webp" class="center-block image-resize-mode" alt="La chouette agence logo" width="100" height="100"/>
 				<h1 class="text-center hero-bloc-text tc-white ">
 					La Chouette agence<br> Bienvenue dans notre entreprise de web desing à Lyon
 				</h1>
@@ -91,9 +88,8 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-1-presentation END -->
 
-<!-- bloc-2-services -->
+<!-- add main element -->
 <main class="bloc bgc-white l-bloc" id="bloc-2-services">
 	<div class="container bloc-md">
 		<div class="row">
@@ -148,7 +144,6 @@
 		</div>
 	</div>
 </main>
-
 <!-- bloc-3-what-i-do -->
 <div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
@@ -165,7 +160,7 @@
 	</div>
 </div>
 
-<!-- bloc-4-portfolio -->
+<!-- portfolio add article element -->
 <article class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -216,24 +211,23 @@
 		</div>
 	</div>
 </article>
-<!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row projet">
-			<h2 class="mg-md text-center tc-white">
+			<h4 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
-			</h2>
+			</h4>
 		</div>
 	</div>
 </div>
 
-<!-- ScrollToTop Button -->
-<a aria-labelledby="haut de la page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
-<!-- ScrollToTop Button END-->
+<!-- add ScrollToTop Button -->
+<a title="haut de la page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
 
-<!-- Footer - bloc-8 -->
+
+<!-- Footer -->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
@@ -268,12 +262,13 @@
 		</div>
 	</div>
 </footer>
-</div>
+
+<!--- add defer to all javascript files----->
 	<script src="./js/jquery-2.1.0.min.js" defer></script>
 	<script src="./js/bootstrap.min.js" defer></script>
 	<script src="./js/blocs.min.js" defer></script>
 	<script src="./js/jquery.touchSwipe.min.js" defer></script>
 	<script src="./js/gmaps.min.js" defer></script>
-	<noscript>Votre navigateur ne supporte pas JavaScript!</noscript>
-</body>
+	
+	</body>
 </html>
