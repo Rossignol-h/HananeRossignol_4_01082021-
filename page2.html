@@ -18,8 +18,10 @@
 	<!-- minified all ressources -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<!-- import font-awesome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	
     <title>Contact - Entreprise de web desing à Lyon</title>
 
@@ -78,29 +80,25 @@
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label for="name">
-							Nom
-							<input id="name"  autocomplete="name" aria-invalid="false" aria-required="true" class="form-control"/>
+							Votre Nom :
+							<input id="name"  autocomplete="name" placeholder="Marie" aria-placeholder="Marie" aria-invalid="false" aria-required="true" class="form-control"/>
 						</label>
 					</div>
-					
 					<div class="form-group">
 						<label for="email adress">
-							Adresse email
-							<input id="email" autocomplete="email" placeholder="mon_email@exemple.com" aria-placeholder="Monemail@exemple.com" aria-invalid="false" aria-required="true" class="form-control"/>
+							Votre email :
+							<input id="email" autocomplete="email" placeholder="mon_email@exemple.com" aria-placeholder="monemail@exemple.com" aria-invalid="false" aria-required="true" class="form-control"/>
 						</label>
 					</div>
-					
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 							<input class="form-control" placeholder="Site Web, pubilicité, blog... " type="text"/>
 						</label>		
 					</div>
-					
-					
 					<div class="form-group">
 						<label>
-							Votre message
+							Votre message :
 							<textarea id="message" class="form-control" rows="4" cols="50"></textarea>
 						</label>
 					</div> 
