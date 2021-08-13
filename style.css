@@ -55,7 +55,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px 30px 50px;
+    padding: 4rem;
 }
 
 .bloc-md {
@@ -440,14 +440,15 @@ button {
     border-radius: 0 0 29px 29px;
 }
 label {
+    font-size: 1rem;
     font-weight: 600;
-    padding: 1rem 0.5rem;
+    padding: 1rem .5rem 0rem .5rem;
 }
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     outline: .05rem solid #063246;
-    margin-top: 1rem;
+    margin-top: .2rem;
     padding: 1.5rem;
 }
 .form-control:focus
@@ -649,12 +650,27 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
+#bloc-7 {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+.form__container {
+    justify-self: center;
+    
+ }
 
 .h1__container {
     background-color: #F3976C;
     border-radius: 20px;
     color: #063246;
     padding: 1rem;
+}
+#realisation {
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 2rem;
+    
 }
 .projet {
     background-color: rgba(6, 50, 70, .7);
@@ -664,10 +680,11 @@ h3 {
     color: #f5ac8a;
 }
 address {
-    font-size: 1.1rem;
-    padding: 2rem;
+    font-size: 1rem;
+    padding: 3.5rem 0rem 2rem;
     line-height: 2rem;
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 address >.fa {
@@ -698,8 +715,12 @@ address >.fa {
     font-size: medium;
     color:rgb(255, 223, 42);
 }
+.project  {
+    padding: 3rem 0rem 0rem;
+}
 .review  {
     display: grid;
+    padding-bottom: 2rem;
 }
 figure {
     outline-style: solid;
@@ -707,6 +728,12 @@ figure {
     max-width: 700px;
     justify-self: center;
     margin: 1rem;
+}
+figure h3 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 figure p {
     font-size: 1.1rem;
@@ -719,10 +746,11 @@ figure figcaption {
     padding: .5rem;
     text-align: center;
     font-style: italic;
-    font-size: .9rem;
-   
+    font-size: .9rem; 
 }
- 
+h4 {
+    font-weight: 600;
+}
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }

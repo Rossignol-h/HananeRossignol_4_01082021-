@@ -1912,9 +1912,7 @@ blockquote.pull-right small:after {
 }
 
 address {
-    margin-bottom: 20px;
-    font-style: normal;
-    line-height: 1.42857143
+    margin-bottom: 2rem;
 }
 
 code,
@@ -3088,8 +3086,7 @@ legend {
 
 label {
     display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
+    width: 90%;
     font-weight: 700
 }
 
@@ -3552,7 +3549,6 @@ textarea.input-lg {
 
 .help-block {
     display: block;
-    margin-top: 5px;
     margin-bottom: 10px;
     color: #737373
 }
@@ -4224,7 +4220,7 @@ fieldset[disabled] .btn-link:hover {
 
 .btn-block {
     display: block;
-    width: 100%
+    width: 90%
 }
 
 .btn-block+.btn-block {
@@ -4373,8 +4369,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
-}
+}   
 
 .open>.dropdown-menu {
     display: block
@@ -5124,7 +5119,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -5747,7 +5742,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #fff;
     cursor: default;
     background-color: #337ab7;
-    border-color: #337ab7
+    border-color: #407cb1
 }
 
 .pagination>.disabled>a,
@@ -6062,9 +6057,10 @@ a.thumbnail:hover {
 }
 
 .alert {
+    width: 85%;
     padding: 15px;
     margin-bottom: 20px;
-    border: 1px solid transparent;
+    border: 1px solid black;
     border-radius: 4px
 }
 
@@ -6400,7 +6396,7 @@ button.list-group-item {
     z-index: 2;
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
+    border-color: #367ab6
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -6452,7 +6448,7 @@ button.list-group-item-success.active:focus,
 button.list-group-item-success.active:hover {
     color: #fff;
     background-color: #3c763d;
-    border-color: #3c763d
+    border-color: #437e44
 }
 
 .list-group-item-info {
@@ -6485,7 +6481,7 @@ button.list-group-item-info.active,
 button.list-group-item-info.active:focus,
 button.list-group-item-info.active:hover {
     color: #fff;
-    background-color: #31708f;
+    background-color: #2b6581;
     border-color: #31708f
 }
 
@@ -6519,8 +6515,8 @@ button.list-group-item-warning.active,
 button.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:hover {
     color: #fff;
-    background-color: #8a6d3b;
-    border-color: #8a6d3b
+    background-color: #8b6d3a;
+    border-color: #884c2b
 }
 
 .list-group-item-danger {
@@ -6553,7 +6549,7 @@ button.list-group-item-danger.active,
 button.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:hover {
     color: #fff;
-    background-color: #a94442;
+    background-color: #aa3c3b;
     border-color: #a94442
 }
 
@@ -7621,7 +7617,7 @@ button.close {
     text-decoration: none;
     filter: alpha(opacity=90);
     outline: 0;
-    opacity: .9
+    opacity: .9;
 }
 
 .carousel-control .glyphicon-chevron-left,
@@ -7652,7 +7648,7 @@ button.close {
     width: 20px;
     height: 20px;
     font-family: serif;
-    line-height: 1
+    line-height: 1;
 }
 
 .carousel-control .icon-prev:before {
@@ -8015,62 +8011,6 @@ button.close {
 
 @media (min-width:1200px) {
     .hidden-lg {
-        display: none !important
-    }
-}
-
-.visible-print {
-    display: none !important
-}
-
-@media print {
-    .visible-print {
-        display: block !important
-    }
-    table.visible-print {
-        display: table !important
-    }
-    tr.visible-print {
-        display: table-row !important
-    }
-    td.visible-print,
-    th.visible-print {
-        display: table-cell !important
-    }
-}
-
-.visible-print-block {
-    display: none !important
-}
-
-@media print {
-    .visible-print-block {
-        display: block !important
-    }
-}
-
-.visible-print-inline {
-    display: none !important
-}
-
-@media print {
-    .visible-print-inline {
-        display: inline !important
-    }
-}
-
-.visible-print-inline-block {
-    display: none !important
-}
-
-@media print {
-    .visible-print-inline-block {
-        display: inline-block !important
-    }
-}
-
-@media print {
-    .hidden-print {
         display: none !important
     }
 }
