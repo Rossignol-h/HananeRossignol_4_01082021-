@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1000 1000"
+   style="enable-background:new 0 0 1000 1000;"
+   xml:space="preserve"
+   sodipodi:docname="strategy.svgz"><metadata
+   id="metadata23"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs21" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview19" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:none;stroke:#053246;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g
+   id="g16">
+	<path
+   id="rect4"
+   style="fill:none;stroke:#053246;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   d="M 151.92999,193.86 H 838.14001 V 618.00002 H 151.92999 Z"
+   class="st0" />
+	<path
+   id="line6"
+   style="fill:none;stroke:#053246;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   d="M 108.62,140.41 H 891.38"
+   class="st0" />
+	<path
+   id="polyline8"
+   style="fill:none;stroke:#053246;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   d="M 340.62,840.41 496,762.83 647.52,840.41"
+   class="st0" />
+	<path
+   id="line10"
+   style="fill:none;stroke:#053246;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   d="M 494.07001,762.83002 V 671.45001"
+   class="st0" />
+	<path
+   id="polyline12"
+   style="fill:none;stroke:#053246;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   d="M 265.72,436.97 408.83,323.17 541.59,449.03 724.34,286.97"
+   class="st0" />
+	<path
+   id="polyline14"
+   style="fill:none;stroke:#053246;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+   d="M 599.91,279.51 H 731.69 V 411.29"
+   class="st0" />
+</g>
+</svg>
